@@ -312,7 +312,7 @@ def demo():
     # 2. Хабарламаны жасыру
     print("\n[2] Хабарламаны жасыру...")
     stego_file = 'stego_audio.wav'
-    message = "Hacking process"
+    message = "Бұл жасырын хабарлама!"
     LSBSteganography.hide_message(clean_file, message, stego_file)
 
     # 3. Таза файлды талдау
@@ -354,4 +354,3 @@ def demo():
 
 if __name__ == "__main__":
     demo()
-
